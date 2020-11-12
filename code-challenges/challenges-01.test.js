@@ -8,12 +8,12 @@ Write a function named greeting that takes in a string and returns the string in
 Then, write a function named speaker that takes in a string and a callback function. The speaker function should return the string in all uppercase letters only by invoking the callback.
 ------------------------------------------------------------------------------------------------ */
 
-const greeting = (word) => {
-  return word.toUpperCase();
-};
+const greeting = (word) => word.toUpperCase();
 
 const speaker = (message, callback) => {
   // Solution code here...
+
+  return callback(message);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -33,11 +33,16 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  // Solution code here...
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+
+
+  for (let i=0; i < times; i++){
+    callback(arr,num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -60,6 +65,14 @@ This function should use forEach to populate your grocery list based on the stor
 
 const createList = (availableItems) => {
   // Solution code here...
+  let inventory = [];
+
+  inventory.forEach( function(value){
+    if (inventory.available.value === false) {inventory.shift(inventory[i]);
+    }
+    return inventory;
+  }
+  );
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,6 +90,32 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
+
+  let outputArr = [];
+
+
+  function findThirds(value){
+    if (value %3 === 0 ){outputArr.push('Fizz');}
+  }
+
+  function findFifths(value){
+    if (value %5 === 0){outputArr.push('Buzz');}
+  }
+
+  function findThirdFifths(value){
+    if (value % 5 === 0 && value % 3 === 0){outputArr.push('Fizz Buzz');}
+  }
+
+  function evenNumber(value){
+    if (value % 3 && value % 5 )outputArr.push(value);
+  }
+
+  arr.forEach(findThirds);
+  arr.forEach(findThirdFifths);
+  arr.forEach(findFifths);
+  arr.forEach(evenNumber);
+
+
   // Solution code here...
 };
 
