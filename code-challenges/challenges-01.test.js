@@ -39,8 +39,8 @@ const addValues = (arr, value) => {
 const addNumbers = (num, arr, times, callback) => {
 
 
-  for (let i=0; i < times; i++){
-    callback(arr,num);
+  for (let i = 0; i < times; i++) {
+    callback(arr, num);
   }
   return arr;
 };
@@ -67,12 +67,13 @@ const createList = (availableItems) => {
   // Solution code here...
   let inventory = [];
 
-  inventory.forEach( function(value){
-    if (inventory.available.value === false) {inventory.shift(inventory[i]);
+  availableItems.forEach(element => {
+    if (element.available) {
+      inventory.push(element.name);
     }
-    return inventory;
-  }
-  );
+
+  });
+  return inventory;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -90,32 +91,22 @@ Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
 const fizzbuzz = (arr) => {
-
   let outputArr = [];
 
+  arr.forEach(element => {
 
-  function findThirds(value){
-    if (value %3 === 0 ){outputArr.push('Fizz');}
-  }
-
-  function findFifths(value){
-    if (value %5 === 0){outputArr.push('Buzz');}
-  }
-
-  function findThirdFifths(value){
-    if (value % 5 === 0 && value % 3 === 0){outputArr.push('Fizz Buzz');}
-  }
-
-  function evenNumber(value){
-    if (value % 3 && value % 5 )outputArr.push(value);
-  }
-
-  arr.forEach(findThirds);
-  arr.forEach(findThirdFifths);
-  arr.forEach(findFifths);
-  arr.forEach(evenNumber);
-
-
+    if (element % 5 === 0 && element % 3 === 0) {
+      outputArr.push('Fizz Buzz');
+    }
+    else if (element % 3 === 0) {
+      outputArr.push('Fizz');
+    }
+    else if (element % 5 === 0) {
+      outputArr.push('Buzz');
+    }
+    else { outputArr.push(element); }
+  });
+  return outputArr;
   // Solution code here...
 };
 
