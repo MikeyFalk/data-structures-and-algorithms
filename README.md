@@ -6,7 +6,7 @@ Code Challenges
 
 C# 401 
 1. Class 01 - array-reverse 
-
+2. Class 02 - array-shift
 
 
 ## Create a copy of this repository
