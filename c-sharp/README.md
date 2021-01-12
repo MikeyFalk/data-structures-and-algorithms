@@ -3,6 +3,7 @@
 ## Table of Contents
 
 1. array-reverse
+2. array-shift
 
 ## Language: `C#`
 
