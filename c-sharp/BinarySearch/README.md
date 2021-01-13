@@ -13,7 +13,7 @@ Expected Output
 2
 
 Whiteboard Visual
-![BinarySeach](c-sharp/Assets/BinarySearch.png)
+![BinarySeach](/c-sharp/Assets/BinarySearch.png)
 
 Change Log
 1.1: Added image of white board exercise and set up Readme - 13 Jan 2021
