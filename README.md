@@ -1,5 +1,14 @@
 # Data Structures and Algorithms
-## Table of Contents 
+
+## Table of Contents
+
+Code Challenges
+
+C# 401 
+1. Class 01 - array-reverse 
+2. Class 02 - array-shift
+
+
 ## Create a copy of this repository
 
 1. Create a new repository in your GitHub account called `data-structures-and-algorithms`
