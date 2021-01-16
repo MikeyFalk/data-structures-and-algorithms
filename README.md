@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-
+## Table of Contents 
 ## Create a copy of this repository
 
 1. Create a new repository in your GitHub account called `data-structures-and-algorithms`
