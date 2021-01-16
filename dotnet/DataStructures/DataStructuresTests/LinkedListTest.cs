@@ -4,39 +4,39 @@ using DataStructures;
 
 namespace DataStructuresTests
 {
-    public class LinkedListTest
+  public class LinkedListTest
+  {
+    [Fact]
+    public void Linked_List_Created_With_A_Value_Has_A_Head()
     {
-        [Fact]
-        public void Linked_List_Created_With_A_Value_Has_A_Head()
-        {
-          int value = 2;
-          LinkedList testList = new LinkedList(value);
-          Assert.Equal(value, testList.Head.Value);
+      int value = 2;
+      LinkedList testList = new LinkedList(value);
+      Assert.Equal(value, testList.Head.Value);
 
-        }
+    }
 
-      [Fact]
-      public void After_Insert_New_Node_Is_The_Head()
-      {
-        LinkedList testList = new LinkedList(5);
-        //H(5) -> NULL
+    [Fact]
+    public void After_Insert_New_Node_Is_The_Head()
+    {
+      LinkedList testList = new LinkedList(5);
+      //H(5) -> NULL
 
-        testList.Insert(10);
-        // H(10) -> 5 ->Null
-        Assert.Equal(10, testList.Head.Value);
+      testList.Insert(10);
+      // H(10) -> 5 ->Null
+      Assert.Equal(10, testList.Head.Value);
 
-      }
+    }
 
-      [Fact]
-      public void After_Insert_Head_Bext_Is_The_Old_Head()
-      {
-        LinkedList testList = new LinkedList(5);
-        Node oldHead = testList.Head;
+    [Fact]
+    public void After_Insert_Head_Bext_Is_The_Old_Head()
+    {
+      LinkedList testList = new LinkedList(5);
+      Node oldHead = testList.Head;
 
-        testList.Insert(10);
+      testList.Insert(10);
 
-        Assert.Equal(oldHead, testList.Head.Next);
-      }
+      Assert.Equal(oldHead, testList.Head.Next);
+    }
     [Fact]
 
     public void Check_To_See_If_Value_Is_In_List()
@@ -79,5 +79,6 @@ namespace DataStructuresTests
       LinkedList testList = new LinkedList();
       Assert.Null(testList.Head);
     }
-  
+  }
+}  
 
