@@ -1,0 +1,13 @@
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.exe
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.deps.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.runtimeconfig.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.runtimeconfig.dev.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.dll
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\bin\Debug\netcoreapp3.1\Implementations.pdb
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.csprojAssemblyReference.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.AssemblyInfoInputs.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.AssemblyInfo.cs
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.csproj.CoreCompileInputs.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.dll
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.pdb
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\DataStructures\Implementations\obj\Debug\netcoreapp3.1\Implementations.genruntimeconfig.cache

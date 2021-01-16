@@ -1,0 +1,17 @@
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.exe
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.deps.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.runtimeconfig.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.runtimeconfig.dev.json
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.dll
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\LinkedLists.pdb
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.csprojAssemblyReference.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.AssemblyInfoInputs.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.AssemblyInfo.cs
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.csproj.CoreCompileInputs.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.dll
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.pdb
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.genruntimeconfig.cache
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\Implementations.exe
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\Implementations.dll
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\bin\Debug\netcoreapp3.1\Implementations.pdb
+C:\Users\falk4\source\repos\data-structures-and-algorithms\dotnet\CodeChallenges\LinkedLists\obj\Debug\netcoreapp3.1\LinkedLists.csproj.CopyComplete
