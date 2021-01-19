@@ -75,6 +75,37 @@ namespace DataStructures
       }
       return false;
     }
+    public void Append(int value)
+    {
+      Node currentNode = Head;
+      while (currentNode.Next != null)
+      {
+        if (currentNode.Next == null)
+        {
+          Node newNode = new Node(value);
+          currentNode.Next = newNode;
+         }
+      }
+    }
 
+    public void InsertBefore(int value, int newVal)
+    {
+      Node currentNode = Head;
+      Node NewNode = LinkedList.Head;
+
+      while (current != null)
+        {
+
+      }
+
+      Node node = new Node(value);
+      node.Next = Head;
+      Head = node;
+    }
+
+    public void insertAfter(int value, int newVal)
+    {
+
+    }
   }
 }
