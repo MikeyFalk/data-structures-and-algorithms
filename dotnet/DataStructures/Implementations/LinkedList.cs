@@ -107,5 +107,30 @@ namespace DataStructures
     {
 
     }
-  }
+    public void KthFromEnd(int k)
+    {
+      int listLength = 0;
+      int modifiedListLength = 0;
+      Node current = Head;
+
+            while (Node.Next != null)
+            {
+                current = current. Next
+                    listLength ++;
+            }
+        modifiedListLength = listLength - k;
+
+            for (int i = 1; i < modifiedListLength; i++)
+            {
+                current = current.Next
+            }
+            return Node.Value;
+			
+
+			
+
+    }
+
+   }
+
 }
