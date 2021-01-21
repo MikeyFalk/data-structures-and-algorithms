@@ -1,4 +1,4 @@
-## Challenge Summary
+## Class 06 Challenge Summary
 Code Challenge: Class 06 Linked list insertions
 Author: Mike Falk
 
@@ -18,7 +18,7 @@ Write the following methods for the Linked List class:
 ![LinkedListInsertion](../../dotnet/Assets/LinkedListInsertion.png)
 
 
-## Challenge Summary
+## Class 07 Challenge Summary
 Code Challenge: Class 07 Linked List Kth from the end
 Author: Mike Falk
 Date: 1/19/21
@@ -31,3 +31,18 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 
 ## Solution
 ![KthFromTheEnd](../../dotnet/Assets/Kth-From-End.png)
+
+
+## Class 08 Challenge Summary
+Code Challenge: Class 08 ZipLists 
+Author: Mike Falk
+Date: 1/20/21
+
+## Challenge Description
+Write a function called zipLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+## Approach & Efficiency
+
+
+## Solution
+![KthFromTheEnd](../../dotnet/Assets/ZipLists.png)
