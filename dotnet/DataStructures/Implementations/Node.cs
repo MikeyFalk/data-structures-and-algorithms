@@ -4,17 +4,19 @@ using System.Text;
 
 namespace DataStructures
 {
- public class Node
+ public class Node<T>
   {
-    public int Value { get; set; }
-    public Node Next { get; set; }
+    public T Value { get; set; }
+
+    public Node<T> Next { get; set; }
+
     //Constructor
     /// <summary>
     /// Constructor for the Node Class
     /// Usage: Node node = new Node(5);
     /// </summary>
     /// <param name="value"></param>
-    public Node( int value )
+    public Node( T value )
     {
       Value = value;
     }
