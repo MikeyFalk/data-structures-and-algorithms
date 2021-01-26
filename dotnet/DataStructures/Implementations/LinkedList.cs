@@ -1,8 +1,11 @@
+using System;
+using System.Collections.Generic;
+
 namespace DataStructures
 {
-  public class LinkedList
+  public class LinkedList<T>
   {
-    public Node Head { get; set; }
+    public Node<T> Head { get; set; }
 
     /// <summary>
     /// Plain empty linked list
@@ -18,15 +21,15 @@ namespace DataStructures
     /// Usage: LinkedList myList = new LinkedList()
     /// </summary>
     /// <param name="value"></param>
-    public LinkedList(int value)
+    public LinkedList(T value)
     {
-      Node node = new Node(value);
+      Node<T> node = new Node<T>(value);
       Head = node;
 
     }
-    public void Insert(int value)
+    public void Insert(T value)
     {
-      Node node = new Node(value);
+      Node<T> node = new Node<T>(value);
       node.Next = Head;
       Head = node;
     }
@@ -35,7 +38,7 @@ namespace DataStructures
     {
 
       string outPut = ""; 
-      Node current = Head;
+      Node<T> current = Head;
 
       while (current != null)
       {
@@ -50,7 +53,7 @@ namespace DataStructures
       return outPut;
     }
 
-    public void PrintR(Node node)
+    public void PrintR(Node<T> node)
     {
       if (node == null)
       {
@@ -61,9 +64,12 @@ namespace DataStructures
 
       PrintR(node.Next);
     }
-    public bool Includes(int checkValue)
+
+
+/*
+    public bool Includes(T checkValue)
     {
-      Node current = Head;
+      Node<T> current = Head;
       while (current != null)
       {
         if (checkValue == current.Value)
@@ -75,19 +81,22 @@ namespace DataStructures
       }
       return false;
     }
-    public void Append(int value)
+*/
+/*
+    public void Append(T value)
     {
-      Node currentNode = Head;
+      Node<T> currentNode = Head;
       while (currentNode.Next != null)
       {
         if (currentNode.Next == null)
         {
-          Node newNode = new Node(value);
+          Node<T> newNode = new Node<T>(value);
           currentNode.Next = newNode;
          }
       }
     }
-
+*/
+/*
     public void InsertBefore(int value, int newVal)
     {
       Node currentNode = Head;
@@ -102,12 +111,15 @@ namespace DataStructures
       node.Next = Head;
       Head = node;
     }
-
+*/
+/*
     public void insertAfter(int value, int newVal)
     {
 
     }
-    public void KthFromEnd(int k)
+*/
+    /*
+  public void KthFromEnd(int k)
     {
       int listLength = 0;
       int modifiedListLength = 0;
@@ -125,12 +137,9 @@ namespace DataStructures
                 current = current.Next
             }
             return Node.Value;
-			
-
-			
-
-    }
-
-   }
+    }	
+    */
+  } 
+   
 
 }
