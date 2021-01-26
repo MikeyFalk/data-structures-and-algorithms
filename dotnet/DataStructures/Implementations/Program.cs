@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DataStructures
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -39,17 +39,20 @@ namespace DataStructures
 
         static void StackStuff()
         {
-          Stack<string> myFamily = Stack<string>();
+          Stacks<string> myFamily = new Stacks<string>();
             myFamily.Push("Mike");
             myFamily.Push("Mary");
             myFamily.Push("Max");
             myFamily.Push("Kitty");
             myFamily.Push("Chloe");
-
-            while (myFamily.Peek())
+            Console.WriteLine(myFamily.Peek());
+            
+            while (!myFamily.Peek())
             {
                 Node<string> person = myFamily.Pop();
+                
                 Console.WriteLine(person.Value);
+
             }
             
 
