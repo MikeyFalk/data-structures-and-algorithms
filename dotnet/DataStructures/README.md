@@ -95,5 +95,21 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 ## Solution
 ![PseudoQueue](../../dotnet/Assets/PseudoQueue.png)
 
+## Class 12 Challenge Summary
+Code Challenge: Class 12 AnimalShelter 
+Author: Mike Falk
+Date: 1/26/21
+
+## Challenge Description
+Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+Implement the following methods:
+enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
+## Approach & Efficiency
+
+
+## Solution
+![AnimalShelter](../../dotnet/Assets/AnimalShelter.png)
+
 
 

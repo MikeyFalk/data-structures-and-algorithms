@@ -7,7 +7,7 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-         //LinkedListStuff();
+         LinkedListStuff();
          StackStuff();
         }
 
