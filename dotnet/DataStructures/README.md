@@ -112,4 +112,23 @@ dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then
 ![AnimalShelter](../../dotnet/Assets/AnimalShelter.png)
 
 
+## Class 13 Challenge Summary
+Code Challenge: Class 13 MultiBracketValidation 
+Author: Mike Falk
+Date: 1/27/21
+
+## Challenge Description
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+Round Brackets : ()
+Square Brackets : []
+Curly Brackets : {}
+
+## Approach & Efficiency
+
+
+## Solution
+![MultiBracketValidation](../../dotnet/Assets/CodeChallenge13.png)
+
+
 
