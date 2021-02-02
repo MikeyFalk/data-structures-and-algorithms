@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Implementations\\Implementations.csproj",
-      "projectName": "Implementations",
-      "projectPath": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Implementations\\Implementations.csproj",
+      "projectUniqueName": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Trees\\Trees.csproj",
+      "projectName": "Trees",
+      "projectPath": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Trees\\Trees.csproj",
       "packagesPath": "C:\\Users\\falk4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Implementations\\obj\\",
+      "outputPath": "C:\\Users\\falk4\\source\\repos\\data-structures-and-algorithms\\dotnet\\DataStructures\\Trees\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\falk4\\AppData\\Roaming\\NuGet\\NuGet.Config",

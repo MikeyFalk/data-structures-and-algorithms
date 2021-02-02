@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DataStructures;
 
 namespace LinkedLists
@@ -10,9 +11,9 @@ namespace LinkedLists
     {
 
     }
-    public static bool linkListActivity()
-        {
-          LinkedList myList = new LinkedList(5);
+    public static bool LinkListActivity()
+    {
+      LinkedList<T> myList = new LinkedList(5);
           myList.Insert(10);
           Console.WriteLine(myList.Head.Value);
           return true;
