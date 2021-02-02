@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{261F3926-DBF1-4C11-9444-71E1879C4A36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{377B683B-166C-4B63-87E0-CFF8E5FF5138}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377B683B-166C-4B63-87E0-CFF8E5FF5138}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377B683B-166C-4B63-87E0-CFF8E5FF5138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261F3926-DBF1-4C11-9444-71E1879C4A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261F3926-DBF1-4C11-9444-71E1879C4A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261F3926-DBF1-4C11-9444-71E1879C4A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261F3926-DBF1-4C11-9444-71E1879C4A36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
