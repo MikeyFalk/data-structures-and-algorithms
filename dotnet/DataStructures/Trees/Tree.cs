@@ -54,8 +54,25 @@ namespace Trees
 
     }
 
+    public void Breadthfirst(Tree<int> tree)
+    {
+      Queue container<-new Queue()
+      container.enqueue(tree.root)
 
+      While (container.peek())
+      {
+        Node front = container.dequeue();
+      }
+          List.add (front.value)
+        if (front.left !=  null)
+        {
+        Container.enqueue(front.left);
+        }
+      if (front.right != null)
+      {
+        Container.enqueue(front.right);
+      }
 
-
+    }
   }
 }
