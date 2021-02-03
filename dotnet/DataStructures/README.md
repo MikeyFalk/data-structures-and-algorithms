@@ -161,5 +161,15 @@ Write an instance method called find-maximum-value. Without utilizing any of the
 ![FindMaxBinaryTree](../../dotnet/Assets/findmaxvaluebinarytree.png)
 
 
+# Breadth-First
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Challenge
+Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+## Solution
+![BreadthFirst](../../dotnet/Assets/BreadthFirst.png)
+
 
 
