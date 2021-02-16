@@ -172,4 +172,16 @@ Write a breadth first traversal method which takes a Binary Tree as its unique i
 ![BreadthFirst](../../dotnet/Assets/BreadthFirst.png)
 
 
+# Selection-Sort Array
+Visually show the output of processing this input array:
+## Challenge
+Being a former program manager I chose to represent the double loop decision process or an Insertion sort with a decision tree.
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+## Solution
+![BreadthFirst](../../dotnet/Assets/SelectionSortArray.png)
+
+
+
+
 
