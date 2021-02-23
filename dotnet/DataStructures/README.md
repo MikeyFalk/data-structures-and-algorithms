@@ -183,5 +183,16 @@ Being a former program manager I chose to represent the double loop decision pro
 
 
 
+# Repeated-word
+
+## Challenge
+Write a function that accepts a lengthy string parameter and returns the first word to occur more than once.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+## Solution
+![RepeatedWord](../../dotnet/Assets/Repeated-Word.png)
+
+
 
 
