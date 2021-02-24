@@ -193,6 +193,15 @@ Write a function that accepts a lengthy string parameter and returns the first w
 ## Solution
 ![RepeatedWord](../../dotnet/Assets/Repeated-Word.png)
 
+# Tree-intersection
+
+## Challenge
+Write a function that takes in two binary trees parameters and returns a set of values found in both trees.
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+## Solution
+![TreeIntersection](../../dotnet/Assets/TreeIntersection.png)
+
 
 
 
